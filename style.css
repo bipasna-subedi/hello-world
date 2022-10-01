@@ -1,1 +1,8 @@
-
+.block-1{
+  background-#!/bin/bash
+recipient=”admin@example.com”
+subject=”Welcoming”
+message=”We sincerely welcome you to Dunebook”
+`mail -s $subject $recipient <<< $message`color: black
+  color: green
+}
